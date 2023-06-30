@@ -44,6 +44,7 @@ export default {
     color: #3e4766;
     margin-bottom: 15px;
     max-width: 110px;
+    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }

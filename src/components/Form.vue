@@ -37,7 +37,7 @@ export default {
     handleSubmit(event) {
       const editedData = {
         ...this.cardData,
-        value: event.target[1].value,
+        value: event.target[1].value || this.cardData.value,
       };
       this.$emit('editData', editedData);
     },
